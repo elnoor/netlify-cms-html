@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow # this will and workflow: draft, in review, ready states
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
