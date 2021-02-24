@@ -4,16 +4,16 @@ backend:
 
 site_url: https://elnur.netlify.app
 display_url: https://elnur.netlify.app
-logo_url: https://elnur.netlify.app/images/uploads/icon.png
+logo_url: https://elnur.netlify.app/content/uploads/icon.png
 
 publish_mode: editorial_workflow # this will and workflow: draft, in review, ready states
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+media_folder: "content/uploads" # Media files will be stored in the repo under content/uploads
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     description: The description is a great place for tone setting, high level information, and editing guidelines that are specific to a collection.
-    folder: "_posts/blog" # The path to the folder where the documents are stored
+    folder: "content/_blogposts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     extension: "json"
     format: "json"
@@ -28,7 +28,7 @@ collections:
     
   - name: 'faq' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'FAQ' # Used in the UI
-    folder: '_faqs'
+    folder: 'content/_faqs'
     extension: "json"
     format: "json"
     create: true # Allow users to create new documents in this collection
