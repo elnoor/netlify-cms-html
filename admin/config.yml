@@ -15,6 +15,8 @@ collections:
     description: The description is a great place for tone setting, high level information, and editing guidelines that are specific to a collection.
     folder: "_posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    extension: "json"
+    format: "json"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
