@@ -4,7 +4,7 @@ backend:
 
 site_url: https://elnur.netlify.app
 display_url: https://elnur.netlify.app
-logo_url: blob:https://elnur.netlify.app/6685f93f-f6ce-402a-9693-d8556cb3a7e6
+logo_url: https://elnur.netlify.app/images/uploads/icon.png
 
 publish_mode: editorial_workflow # this will and workflow: draft, in review, ready states
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
